@@ -2,7 +2,8 @@ package mod
 
 import (
 	"fmt"
-	"github.com/gogf/gf-cli/v2/library/mlog"
+
+	"github.com/ShuZhong/gf-cli/v2/library/mlog"
 	"github.com/gogf/gf/v2/container/gmap"
 	"github.com/gogf/gf/v2/os/gcmd"
 	"github.com/gogf/gf/v2/os/genv"

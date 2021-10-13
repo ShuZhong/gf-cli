@@ -2,10 +2,11 @@ package get
 
 import (
 	"fmt"
-	"github.com/gogf/gf-cli/v2/library/mlog"
+	"os"
+
+	"github.com/ShuZhong/gf-cli/v2/library/mlog"
 	"github.com/gogf/gf/v2/os/gproc"
 	"github.com/gogf/gf/v2/text/gstr"
-	"os"
 )
 
 func Help() {
@@ -14,12 +15,12 @@ USAGE
     gf get PACKAGE
 
 ARGUMENT 
-    PACKAGE  remote golang package path, eg: github.com/gogf/gf
+    PACKAGE  remote golang package path, eg: github.com/ShuZhong/gf
 
 EXAMPLES
-    gf get github.com/gogf/gf
-    gf get github.com/gogf/gf@latest
-    gf get github.com/gogf/gf@master
+    gf get github.com/ShuZhong/gf
+    gf get github.com/ShuZhong/gf@latest
+    gf get github.com/ShuZhong/gf@master
     gf get golang.org/x/sys
 `))
 }

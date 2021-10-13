@@ -1,4 +1,4 @@
-module github.com/gogf/gf-cli/v2
+module github.com/ShuZhong/gf-cli/v2
 
 go 1.14
 

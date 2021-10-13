@@ -2,18 +2,19 @@ package initialize
 
 import (
 	"context"
-	"github.com/gogf/gf-cli/v2/library/allyes"
-	"github.com/gogf/gf-cli/v2/library/mlog"
+	"strings"
+
+	"github.com/ShuZhong/gf-cli/v2/library/allyes"
+	"github.com/ShuZhong/gf-cli/v2/library/mlog"
 	"github.com/gogf/gf/v2/encoding/gcompress"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gcmd"
 	"github.com/gogf/gf/v2/os/gfile"
 	"github.com/gogf/gf/v2/text/gstr"
-	"strings"
 )
 
 const (
-	emptyProject     = "github.com/gogf/gf-empty"
+	emptyProject     = "github.com/ShuZhong/gf-empty"
 	emptyProjectName = "gf-empty"
 )
 

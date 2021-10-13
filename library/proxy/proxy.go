@@ -1,10 +1,11 @@
 package proxy
 
 import (
-	"github.com/gogf/gf-cli/v2/library/mlog"
+	"time"
+
+	"github.com/ShuZhong/gf-cli/v2/library/mlog"
 	"github.com/gogf/gf/v2/net/ghttp"
 	"github.com/gogf/gf/v2/os/genv"
-	"time"
 )
 
 var (

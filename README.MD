@@ -6,19 +6,19 @@
 
 ### 1). Binary
 
-It's recommended using pre-compiled binaries: https://github.com/gogf/gf-cli/releases
+It's recommended using pre-compiled binaries: https://github.com/ShuZhong/gf-cli/releases
 
 After downloads, please use `gf_xxx_xxx install` command to install gf binary to system binary path.
 
 1. `Mac`
     ```shell
-    wget -O gf https://github.com/gogf/gf-cli/releases/download/v1.16.3/gf_darwin_amd64 && chmod +x gf && ./gf install
+    wget -O gf https://github.com/ShuZhong/gf-cli/releases/download/v1.16.3/gf_darwin_amd64 && chmod +x gf && ./gf install
     ```
    > If you're using `zsh`, you might need rename your alias by command `alias gf=gf` to resolve the conflicts between `gf` and `git fetch`.
                                                                                                                           
 1. `Linux` 
     ```shell
-    wget -O gf https://github.com/gogf/gf-cli/releases/download/v1.16.3/gf_linux_amd64 && chmod +x gf && ./gf install
+    wget -O gf https://github.com/ShuZhong/gf-cli/releases/download/v1.16.3/gf_linux_amd64 && chmod +x gf && ./gf install
     ```
                                                                                                                   
 1. `Windows`
@@ -31,13 +31,13 @@ After downloads, please use `gf_xxx_xxx install` command to install gf binary to
 
 1. Latest version
     ```
-    git clone https://github.com/gogf/gf-cli 
+    git clone https://github.com/ShuZhong/gf-cli 
     cd gf-cli && go build main.go && ./main install
     ```
    
 1. Specified version
     ```
-    git clone --branch v1.16.3 https://github.com/gogf/gf-cli 
+    git clone --branch v1.16.3 https://github.com/ShuZhong/gf-cli 
     cd gf-cli && go build main.go && ./main install
     ```
    

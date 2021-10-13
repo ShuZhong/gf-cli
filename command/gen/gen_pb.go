@@ -2,7 +2,8 @@ package gen
 
 import (
 	"fmt"
-	"github.com/gogf/gf-cli/v2/library/mlog"
+
+	"github.com/ShuZhong/gf-cli/v2/library/mlog"
 	"github.com/gogf/gf/v2/container/gset"
 	"github.com/gogf/gf/v2/os/genv"
 	"github.com/gogf/gf/v2/os/gfile"

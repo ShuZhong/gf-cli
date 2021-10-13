@@ -4,7 +4,11 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/gogf/gf-cli/v2/library/mlog"
+	"regexp"
+	"runtime"
+	"strings"
+
+	"github.com/ShuZhong/gf-cli/v2/library/mlog"
 	"github.com/gogf/gf/v2/encoding/gbase64"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gcfg"
@@ -17,9 +21,6 @@ import (
 	"github.com/gogf/gf/v2/text/gstr"
 	"github.com/gogf/gf/v2/util/gconv"
 	"github.com/gogf/gf/v2/util/gutil"
-	"regexp"
-	"runtime"
-	"strings"
 )
 
 // https://golang.google.cn/doc/install/source
@@ -204,7 +205,7 @@ func Run() {
 	}
 
 	// Injected information by building flags.
-	ldFlags := fmt.Sprintf(`-X 'github.com/gogf/gf/os/gbuild.builtInVarStr=%v'`, getBuildInVarStr())
+	ldFlags := fmt.Sprintf(`-X 'github.com/ShuZhong/gf/os/gbuild.builtInVarStr=%v'`, getBuildInVarStr())
 
 	// start building
 	mlog.Print("start building...")

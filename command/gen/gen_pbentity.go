@@ -4,8 +4,9 @@ import (
 	"bytes"
 	"context"
 	"fmt"
+
+	"github.com/ShuZhong/gf-cli/v2/library/mlog"
 	_ "github.com/denisenkom/go-mssqldb"
-	"github.com/gogf/gf-cli/v2/library/mlog"
 	"github.com/gogf/gf/v2/database/gdb"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gcfg"
@@ -16,10 +17,12 @@ import (
 	"github.com/gogf/gf/v2/text/gstr"
 	"github.com/gogf/gf/v2/util/gconv"
 	_ "github.com/lib/pq"
+
 	//_ "github.com/mattn/go-oci8"
 	//_ "github.com/mattn/go-sqlite3"
-	"github.com/olekukonko/tablewriter"
 	"strings"
+
+	"github.com/olekukonko/tablewriter"
 )
 
 // generatePbEntityReq is the input parameter for generating entity protobuf files.

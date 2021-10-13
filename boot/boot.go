@@ -1,7 +1,7 @@
 package boot
 
 import (
-	_ "github.com/gogf/gf-cli/v2/packed"
+	_ "github.com/ShuZhong/gf-cli/v2/packed"
 	"github.com/gogf/gf/v2/os/genv"
 
 	"github.com/gogf/gf/v2/os/gfile"

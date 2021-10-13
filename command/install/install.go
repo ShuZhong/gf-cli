@@ -1,8 +1,11 @@
 package install
 
 import (
-	"github.com/gogf/gf-cli/v2/library/allyes"
-	"github.com/gogf/gf-cli/v2/library/mlog"
+	"runtime"
+	"strings"
+
+	"github.com/ShuZhong/gf-cli/v2/library/allyes"
+	"github.com/ShuZhong/gf-cli/v2/library/mlog"
 	"github.com/gogf/gf/v2/container/garray"
 	"github.com/gogf/gf/v2/container/gset"
 	"github.com/gogf/gf/v2/frame/g"
@@ -11,8 +14,6 @@ import (
 	"github.com/gogf/gf/v2/os/gfile"
 	"github.com/gogf/gf/v2/text/gstr"
 	"github.com/gogf/gf/v2/util/gconv"
-	"runtime"
-	"strings"
 )
 
 // installFolderPath contains installFolderPath-related data,

@@ -4,11 +4,12 @@ import (
 	"bytes"
 	"context"
 	"fmt"
-	"github.com/gogf/gf/v2/os/gcfg"
 	"strings"
 
-	"github.com/gogf/gf-cli/v2/library/mlog"
-	"github.com/gogf/gf-cli/v2/library/utils"
+	"github.com/gogf/gf/v2/os/gcfg"
+
+	"github.com/ShuZhong/gf-cli/v2/library/mlog"
+	"github.com/ShuZhong/gf-cli/v2/library/utils"
 	"github.com/gogf/gf/v2/container/garray"
 	"github.com/gogf/gf/v2/database/gdb"
 	"github.com/gogf/gf/v2/frame/g"
@@ -171,7 +172,7 @@ func doGenDaoForArray(index int, parser *gcmd.Parser) {
 	var (
 		err                 error
 		db                  gdb.DB
-		modName             string                                                                           // Go module name, eg: github.com/gogf/gf.
+		modName             string                                                                           // Go module name, eg: github.com/ShuZhong/gf.
 		importPrefix        = getOptionOrConfigForDao(index, parser, "importPrefix")                         // The import prefix for generated go files.
 		dirPath             = getOptionOrConfigForDao(index, parser, "path", genDaoDefaultPath)              // Generated directory path.
 		tablesStr           = getOptionOrConfigForDao(index, parser, "tables")                               // Tables that will be generated.

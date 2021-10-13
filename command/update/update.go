@@ -3,11 +3,12 @@ package update
 import (
 	"context"
 	"fmt"
-	"github.com/gogf/gf-cli/v2/library/mlog"
+	"runtime"
+
+	"github.com/ShuZhong/gf-cli/v2/library/mlog"
 	"github.com/gogf/gf/v2/crypto/gmd5"
 	"github.com/gogf/gf/v2/frame/g"
 	"github.com/gogf/gf/v2/os/gfile"
-	"runtime"
 )
 
 var (
